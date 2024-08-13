@@ -1,5 +1,5 @@
 {
-  "name": "taskfrontend",
+  "name": "fetchapi",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -45,7 +45,7 @@
   },
   "jest": {
     "transform": {
-      "^.+\\.[t|j]sx?$": "babel-jest"
+      "^.+\\.[jt]sx?$": "babel-jest"
     },
     "transformIgnorePatterns": [
       "node_modules/(?!(axios)/)"
