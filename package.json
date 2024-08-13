@@ -1,5 +1,5 @@
 {
-  "name": "task",
+  "name": "taskfrontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +12,12 @@
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/preset-react": "^7.24.7",
+    "babel-jest": "^29.7.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -36,12 +42,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "@babel/preset-env": "^7.25.3",
-    "@babel/preset-react": "^7.24.7",
-    "babel-jest": "^29.7.0"
   },
   "jest": {
     "transform": {
