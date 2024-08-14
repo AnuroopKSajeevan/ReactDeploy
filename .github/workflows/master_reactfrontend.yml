@@ -67,5 +67,5 @@ jobs:
         with:
           app-name: "ReactFrontEnd"
           slot-name: "Production"
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
+          publish-profile: ${{  secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2CA122585BD04BCCB260D93874DF4A8C }}
           package: "./build"
